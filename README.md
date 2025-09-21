@@ -1,12 +1,12 @@
 # 🔎 Google Dorking for Bug Bounty Hunting (2025)  
-
 A curated list of **Google Dorks** to help security researchers, penetration testers, and bug bounty hunters find security vulnerabilities, disclosure programs, and bounty opportunities.
 
 ## 🚀 What is Google Dorking?  
 Google Dorking (also known as **Google Hacking**) is a technique used to find hidden information, sensitive files, security reports, and bug bounty programs using advanced Google search queries.
 
 ## 📌 How to Use  
-Copy and paste these dorks into Google to discover:  
+Copy and paste these dorks into Google to discover:
+  
 ✅ Bug bounty programs  
 ✅ Responsible disclosure pages  
 ✅ Security vulnerability reports  
@@ -19,18 +19,16 @@ Copy and paste these dorks into Google to discover:
 ## 📜 **Google Dorks for 2025**
 
 ### 🔍 **General Bug Bounty Dorks**
-
 1. inurl:/bug-bounty "security"
 2. inurl:/security "bug bounty"
 3. inurl:/security.txt "bug bounty"
 4. inurl:/.well-known/security.txt "bug bounty"
 5. inurl:security.txt intext:"mailto" -github.com -wikipedia.org -portswigger.net -magento
-6. submit vulnerability report" | "powered by bugcrowd" | "powered by hackerone"
+6. "submit vulnerability report" | "powered by bugcrowd" | "powered by hackerone"
 7. inurl:/security ext:txt "contact"
 8. intext:"security vulnerability" "report"
 
 ### 🏆 **Bug Bounty Program & Rewards**
-
 1. intext:"responsible disclosure" "bounty" "reward"
 2. intext:"bug bounty" inurl:/report
 3. intext:"we offer a bounty"
@@ -39,10 +37,9 @@ Copy and paste these dorks into Google to discover:
 6. "powered by hackerone" -site:hackerone.com
 7. intext:"submit vulnerability" | "security vulnerability report" | "bug bounty reward"
 8. site:*.edu intext:"security report reward"
-9. site:security.*.* inurl: bounty
+9. site:security.*.* inurl:bounty
 
 ### 🌍 **Country-Specific Bug Bounty Programs**
-
 1. site:*.br responsible disclosure bounty
 2. site:*.au responsible disclosure bounty
 3. site:*.uk responsible disclosure bounty
@@ -50,9 +47,11 @@ Copy and paste these dorks into Google to discover:
 5. site:*.nl intext:security report reward
 6. site:*.eu intext:security report reward
 7. site:*.de inurl:bug inurl:bounty
+8. site:*.in intext:"bug bounty" "security"
+9. site:*.jp intext:"responsible disclosure" reward
+10. site:*.fr intext:"security vulnerability" "reward"
 
 ### 🎯 **Security Policy & Disclosure Pages**
-
 1. inurl:security-policy.txt ext:txt
 2. inurl:/security ext:txt "contact"
 3. inurl:/responsible-disclosure/ reward
@@ -65,22 +64,23 @@ Copy and paste these dorks into Google to discover:
 10. inurl:/trust/report-a-vulnerability
 
 ### 🔎 **CMS & Open Source Bug Bounties**
-
 1. "cms" bug bounty
 2. "open-source security bounty"
 3. inurl:/.git intext:security vulnerability
 4. inurl:/wp-content/plugins/ intext:vulnerability report
 5. inurl:/modules/security-report/
+6. site:github.com intext:"security bounty" "vulnerability"
+7. "WordPress" intext:"security vulnerability" "reward"
 
 ### 💰 **Crypto & Financial Bug Bounty**
-
 1. "bug bounty" intext:"BTC" | "ETH" | "USDT" | "crypto" | "reward"
 2. intext:"cryptocurrency" "bug bounty"
 3. site:*.exchange intext:security vulnerability report
 4. inurl:security-report intext:crypto | blockchain | token
+5. "DeFi" intext:"bug bounty" "vulnerability"
+6. "NFT" intext:"security" "bounty" "reward"
 
 ### 🏦 **Government & Corporate Responsible Disclosure**
-
 1. site:*.gov.* "responsible disclosure"
 2. site:*.mil.* "security vulnerability report"
 3. site:*.bank "security vulnerability report"
@@ -88,17 +88,34 @@ Copy and paste these dorks into Google to discover:
 5. site:*.edu intext:security report vulnerability
 
 ### 💳 **E-commerce & Payment Platforms**
-
 1. site:*.shop intext:"bug bounty"
 2. site:*.store intext:"responsible disclosure"
 3. site:*.pay intext:"security vulnerability report"
 4. intext:"if you find a vulnerability" site:*.bank
+5. "e-commerce" intext:"security vulnerability" "reward"
 
-### 💳 **publicly exposed documents**
+### 🤖 **AI & Machine Learning Security**
+1. "AI security" intext:"bug bounty" "vulnerability"
+2. "machine learning" intext:"security" "responsible disclosure"
+3. "artificial intelligence" intext:"vulnerability report" "reward"
+4. intext:"AI model" "security vulnerability" "bounty"
+5. "LLM security" intext:"bug bounty" "reward"
+
+### 🏢 **Enterprise & SaaS Security**
+1. site:*.saas intext:"security vulnerability" "report"
+2. "enterprise security" intext:"bug bounty" "program"
+3. "SaaS" intext:"responsible disclosure" "reward"
+4. intext:"cloud security" "vulnerability" "bounty"
+
+### 💳 **Publicly Exposed Documents**
 1. site:target.com ext:doc | ext:docx | ext:pdf | ext:odt | ext:rtf | ext:ppt | ext:pptx | ext:pps | ext:csv
+2. filetype:pdf intext:"confidential" site:*.com
+3. filetype:xlsx intext:"internal" "security"
+
 ---
 
-## 🛠️ **How to Stay Updated?**  
+## 🛠️ **How to Stay Updated?**
+  
 🔹 Follow me on GitHub for more updates!  
 🔹 Stay up to date with the latest Google Dorks by following cybersecurity trends.  
 🔹 Join **bug bounty communities** like linkedin, YouTube.  
@@ -108,4 +125,3 @@ Copy and paste these dorks into Google to discover:
 📢 **Disclaimer:** This repository is for **educational and ethical hacking** purposes only. Do not use this information for illegal activities. Always follow legal and ethical guidelines when performing security research.  
 
 🚀 Happy Hunting! 🐞  
-
